@@ -8,3 +8,24 @@ You are free to use the code for personal use in any shape or form you want, and
 
 # Copyright
 Emil Borconi-Szedressy (C) 2017 - Wakefield - United Kingdom
+
+# Requirements
+
+* Android Studio 3.4.1 or higher
+* Gradle 5.1.1
+* Android API 27
+
+
+# Build 
+
+```
+$> ./gradlew assemble 
+```
+
+This will generate an `apk` file inside build directory `./app/build/outputs/apk/debug`
+
+# Install in debug device
+
+```
+$> ./gradlew installDebug
+```
